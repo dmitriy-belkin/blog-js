@@ -1,3 +1,8 @@
+If you have some problem with next-contentlayer 0.3.4 with next 14:
+```
+npm update --legacy-peer-deps
+```
+
 ![tailwind-nextjs-banner](/public/static/images/twitter-card.png)
 
 # Tailwind Nextjs Starter Blog
