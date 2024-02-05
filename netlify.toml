@@ -1,3 +1,2 @@
 [build]
-command = "set PWD="$(pwd)""
 command = "npm install --legacy-peer-deps && npm run build"
