@@ -3,7 +3,8 @@
   "version": "2.1.0",
   "private": true,
   "scripts": {
-    "prebuild": "npm cache clean -f && npm install contentlayer next-contentlayer date-fns --legacy-peer-deps",
+    "prebuild": "npm cache clean -f",
+    "install-force": "npm install --legacy-peer-deps",
     "start": "next dev",
     "dev": "cross-env INIT_CWD=$PWD next dev",
     "build": "cross-env INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node ./scripts/postbuild.mjs",
